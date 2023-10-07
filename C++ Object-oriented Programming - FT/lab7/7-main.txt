@@ -1,0 +1,19 @@
+Poniżej wklejam pozycje kolejnych n-masztowców:
+pozycja.x = 0; pozycja.y = 0;
+pozycja.x = 4; pozycja.y = 4;
+pozycja.x = 6; pozycja.y = 6;
+pozycja.x = 8; pozycja.y = 8;
+
+pozycja.x = 8; pozycja.y = 0;
+pozycja.x = 5; pozycja.y = 0;
+pozycja.x = 0; pozycja.y = 8;
+
+pozycja.x = 2; pozycja.y = 2;
+pozycja.x = 7; pozycja.y = 2;
+
+pozycja.x = 0; pozycja.y = 6;
+
+
+/////////////////////////////////////////
+
+Na następne zajęcia obowiązują elementy dotychczas przedstawione na wykładach, w szczególności klasy oraz make.

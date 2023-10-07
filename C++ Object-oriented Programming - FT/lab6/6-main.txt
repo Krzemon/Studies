@@ -1,0 +1,42 @@
+    int main(){
+    Vector *w1 = form_Vector();
+    Matrix *m1 = form_Matrix(5,14);
+
+    print("To jest napis - funkcja print działa. Działa też dla zmiennych typu bool:");
+    print(true or false);
+    print("\nTo jest wektor:");
+    print(*w1);
+    print("Adres tego wektora to:");
+    print(w1);
+
+    print("\nA to jest macierz:");
+    print(*m1);
+    print("Adres tej macierzy to:");
+    print(m1);
+
+    delete_Vector(w1);
+    delete_Matrix(m1);
+    }
+
+    a efekt działania programu dokładnie tak (oczywiście adresy pamięci będą inne):
+
+To jest napis - funkcja print działa. Działa też dla zmiennych typu bool:
+1
+
+To jest wektor:
+[0, 0, 0]
+Adres tego wektora to:
+0x2069e70
+
+A to jest macierz:
+| 0 0 0 0 0 0 0 0 0 0 0 0 0 0 |
+| 0 0 0 0 0 0 0 0 0 0 0 0 0 0 |
+| 0 0 0 0 0 0 0 0 0 0 0 0 0 0 |
+| 0 0 0 0 0 0 0 0 0 0 0 0 0 0 |
+| 0 0 0 0 0 0 0 0 0 0 0 0 0 0 |
+Adres tej macierzy to:
+0x2069eb0
+
+Oczywiście, valgrind powinien wówczas zwrócić 0 błędów oraz 0 wycieków pamięci.
+
+Na następne zajęcia obowiązują elementy języka C/C++ dotychczas przedstawione na wykładach.

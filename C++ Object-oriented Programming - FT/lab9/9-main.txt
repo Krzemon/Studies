@@ -1,0 +1,55 @@
+Oczekuję, że działanie zaimplementowanego kodu będzie przetestowane przez poniższą postać main.cpp:
+
+#include <iostream>
+#include "Osoba.h"
+#include "Pracownik.h"
+
+enum stanowisko {zwykly, kierownik, prezes};
+
+int main() {
+  int placa[] = { 1600, 2100, 8900 };
+
+  Pracownik jasio("Jasio ", 1978, placa[zwykly]);
+  Pracownik henio("Henio ", 1980, placa[zwykly]);
+  Pracownik jan("Jan ", 1965, placa[kierownik]);
+  Pracownik panJan("Pan Jan", 1955, placa[prezes]);
+
+  jasio.info();
+  henio.info();
+  jan.info();
+  panJan.info();
+
+  std::cout << "\nZmieniamy place\n\n";
+
+  placa[zwykly] -= 300;
+  placa[prezes] += 1000;
+  jasio.info();
+  henio.info();
+  jan.info();
+  panJan.info();
+
+  std::cout << "\nKoniec programu\n\n";
+}
+
+a wynikiem działania programu będzie:
+
+Jasio   (r.ur. 1978) id=1; zarobki: 1600
+Henio   (r.ur. 1980) id=2; zarobki: 1600
+Jan     (r.ur. 1965) id=3; zarobki: 2100
+Pan Jan (r.ur. 1955) id=4; zarobki: 8900
+
+Zmieniamy place
+
+Jasio   (r.ur. 1978) id=1; zarobki: 1300
+Henio   (r.ur. 1980) id=2; zarobki: 1300
+Jan     (r.ur. 1965) id=3; zarobki: 2100
+Pan Jan (r.ur. 1955) id=4; zarobki: 9900
+
+Koniec programu
+
+Usuwamy osobe Pan Jan
+Usuwamy osobe Jan    
+Usuwamy osobe Henio  
+Usuwamy osobe Jasio
+
+Na następne zajęcia obowiązują elementy dotychczas przedstawione na wykładach, w szczególności klasy (cd.).

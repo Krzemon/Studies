@@ -1,0 +1,52 @@
+Oczekuję, że działanie zaimplementowanego kodu będzie przetestowane przez poniższą postać main.cpp:
+
+#include <string>
+#include <iostream>
+#include "Sorter.h"
+#include "Complex.h"
+
+
+int main() {
+  
+Sorter<int> ints(8);
+ints.add({ 5,6,4,3,6,7,2,1 });
+    ints.print();
+ints.sort();
+ints.print();
+
+    const Sorter<int> ints2 = ints;
+    ints2.print();
+
+    Sorter<int> ints3 = std::move(ints);
+    ints3.print();
+
+    Sorter<std::string> strings(6);
+strings.add({ "e", "a", "d", "c", "f", "b" });
+    strings.print();
+strings.sort();
+strings.print();
+
+    Sorter<Complex> complexNums(5);
+    complexNums.add( {Complex(2,1), Complex(1,1), Complex(1,9), Complex(0,1), Complex(-2,1)} );
+    complexNums.print();
+    complexNums.sort();
+    complexNums.print();
+}
+
+a wynikiem działania programu będzie:
+
+Konstruktor standardowy
+5  6  4  3  6  7  2  1  
+1  2  3  4  5  6  6  7  
+Konstruktor kopiujacy
+1  2  3  4  5  6  6  7  
+Konstruktor przenoszacy
+1  2  3  4  5  6  6  7  
+Konstruktor standardowy
+e  a  d  c  f  b  
+a  b  c  d  e  f  
+Konstruktor standardowy
+2+1i  1+1i  1+9i  0+1i  -2+1i  
+0+1i  1+1i  2+1i  -2+1i  1+9i
+
+Na następne zajęcia obowiązują elementy dotychczas przedstawione na wykładach, w szczególności klasy (cd.).

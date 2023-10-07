@@ -1,0 +1,28 @@
+#include <iostream>
+
+template <typename T>
+void print(const T & obj){
+  std::cout << "type: " << obj << std::endl;
+}
+
+template <>
+void print<int>(const int & obj){
+  std::cout << "int: " << obj << std::endl;
+}
+
+template <>
+void print<double>(const double & obj){
+  std::cout << "double: " << obj << std::endl;
+}
+
+int main(int argc, char** argv){
+  if(argc==1){
+    print("Napis");
+    int a = true or false;
+    print(a);
+    print("Inny napis");
+    print(2);
+    print("Ostatni napis");
+    print(1.5);
+  }
+}

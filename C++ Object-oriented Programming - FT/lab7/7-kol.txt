@@ -1,0 +1,41 @@
+#include <iostream>
+
+struct A { double x; double y; };
+struct B { int x; int y; };
+
+bool a2b_b2a (A* a = nullptr, B* b = nullptr) {
+    if(!a && !b){
+        std::cout << "DOUBLE ERROR" << std::endl;
+        return false;
+    }
+    if(!a || !b){
+        std::cout << "ERROR" << std::endl;
+        return false;
+    }
+    double xTmp = a->x;
+    double yTmp = a->y;
+    a->x = b->x;    a->y = b->y;
+    b->x = xTmp;    b->y = yTmp;
+    return true;
+}
+
+int main() {
+    B b;    b.x = 0;    b.y = 1;
+    std::cout << b.x << " \t " << b.y << std::endl;
+    
+    A a;    a.x = 1;    a.y = 0;
+    std::cout << a.y << " \t " << a.x << std::endl;
+    
+    bool answer = a2b_b2a();
+    if(!answer){
+        answer = a2b_b2a( &a );
+        if(!answer){
+            answer = a2b_b2a( &a, &b );
+        }
+    }
+    
+    std::cout << a.x << " \t " << a.y << std::endl;
+    std::cout << b.x << " \t " << b.y << std::endl;
+    
+    return 0;
+}

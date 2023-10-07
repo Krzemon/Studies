@@ -1,0 +1,29 @@
+#include <cmath>
+#include "ProgressBar.h"
+
+int main() {
+const int nEvents = 1e7;
+
+ProgressBar bar(nEvents); // utworzenie obiektu klasy ProgressBar reprezentujacego zadanie, dla ktorego 100% (koniec zadania) dane jest przez liczbe 1e7
+
+for(int i=0; i<nEvents; ++i){ // petla wykonujaca okreslone zadanie 1e7 razy
+bar.refresh(i); // wypisanie paska postepu dla i-tej (z zadanych 1e7) iteracji zadania
+
+// ponizsze linijki to zadanie w miare obciazajace komputer, ktore sprawia ze program wykonuje sie kilka sekund
+double *z = new double;
+*z = pow(i,sin(cos(tan(pow(tan(sin(i/10.)),i)))));
+delete z;
+}
+}
+
+Wskazówki:
+- Poprzez std::cout << "Jakis tekst" << std::flush powoduje się wypisanie w konsoli tekstu "Jakis tekst" i pozostanie w tej samej linii bez zamykania strumienia wyjściowego. To sprawia, że jeśli dalej wykonamy std::cout << "\b\b\b\b\b\b\b\b\b\b\b" << std::flush (znak '\b' to znak backspace, działa dokładnie tak jak naciśnięcie przycisku backspace na klawiaturze przy edycji tekstu), to tekst "Jakis tekst" zostanie usuniety z konsoli i "kursor" znów będzie na początku linii.
+- Sugeruję odświeżać (na nowo wypisywać) pasek postępu co 0.01 część liczby określającej koniec zadania (co 1%).
+- Niech długość paska postępu (liczba wypisanych strzałek '>' przy 100%) wynosi 50.
+
+        [1 pkt] Proszę dodać do klasy ProgressBar (i zaprezentować działanie w funkcji main) dedykowane metody pozwalające na:
+            ustalenie znaku reprezentującego postęp (zmianę '>' na coś innego podanego do metody jako argument),
+            ustalenie długości paska postępu.
+
+
+Na następne zajęcia obowiązują elementy dotychczas przedstawione na wykładach, w szczególności klasy (cd.).
