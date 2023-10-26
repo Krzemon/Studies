@@ -1,0 +1,3 @@
+/home/fedora/Programming/MOFiT2/lab01/build/CMakeFiles/lab01.dir
+/home/fedora/Programming/MOFiT2/lab01/build/CMakeFiles/edit_cache.dir
+/home/fedora/Programming/MOFiT2/lab01/build/CMakeFiles/rebuild_cache.dir

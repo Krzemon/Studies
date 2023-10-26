@@ -1,0 +1,5 @@
+Zakres energii: 0 - 35
+Miejsca zerowe metoda bisekcji: 
+1.05, 2.8, 5.6, 9.45, 14.35, 20.65, 27.65, 
+Miejsca zerowe wyniki dokładne: 
+0.561292, 2.24517, 5.05163, 8.98067, 14.0323, 20.2065, 27.5033, 

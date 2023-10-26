@@ -1,0 +1,3 @@
+/mnt/d/Programming/CPP/other labs/test/build/CMakeFiles/test.dir
+/mnt/d/Programming/CPP/other labs/test/build/CMakeFiles/edit_cache.dir
+/mnt/d/Programming/CPP/other labs/test/build/CMakeFiles/rebuild_cache.dir
