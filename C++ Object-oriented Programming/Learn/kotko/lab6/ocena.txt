@@ -1,0 +1,10 @@
+100,00 % 	5.0 	
+
+Kompilacja: OK
+Wyjście: OK
+Dokumentacja: OK
+Ocena kodu:
+    -- należy używać stałych referencji przy przekazywaniu obiektów do fcji, które mają tylko czytać dane obiektu
+    -- nie ma potrzeby używać wskaźnika this wewnątrz klasy (poza szczególnymi przypadkami, np przy wywoływaniu wskaźników do fcji itp)
+
+Wynik: 10 (jest minus za nadużycie this!)

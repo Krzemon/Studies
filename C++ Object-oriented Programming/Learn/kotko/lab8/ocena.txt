@@ -1,0 +1,10 @@
+100,00 % 	5.0 	
+
+Kompilacja: OK
+Wyjście: OK
+Dokumetacja: super
+Ocena kodu:
+    -- swietny kod, ładnie i kompaktowo
+    -- zastanawiam się po co jest nagłówek <vector> :)
+
+Wynik: 10

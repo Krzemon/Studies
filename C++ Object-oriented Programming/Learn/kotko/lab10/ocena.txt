@@ -1,0 +1,11 @@
+100,00 % 	5.0 	
+
+Kompilacja: OK
+Wyjście: OK
+Dokumentacja:OK
+Ocena kodu:
+-- bardzo dobry i czysty kod
+-- lepiej byłoby przekazywać obiekty string przez referencje (stałą)
+-- Gettery zwracające wskaźnik powinny również być const.
+
+Wynik: 10

@@ -1,0 +1,7 @@
+100,00 % 	5.0 	
+
+Dokumentacja: 1
+Kompilacja: 2
+Wyjscie: 3
+Program: 4
+Uwagi: NIGDY nie hardcode'ujemy stałych. Powinno byc const int costam = 5;

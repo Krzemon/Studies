@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g -rdynamic CMakeFiles/lab05.dir/main.cpp.o CMakeFiles/lab05.dir/src/Point.cpp.o CMakeFiles/lab05.dir/src/Polygon.cpp.o -o lab05 

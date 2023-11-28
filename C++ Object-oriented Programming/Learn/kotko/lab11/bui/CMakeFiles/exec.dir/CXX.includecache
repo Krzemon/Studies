@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/quaternion.h
+utility
+-
+iostream
+-
+
+/home/stud2018/8baluch/PPO/lab11/src/main.cpp
+quaternion.h
+/home/stud2018/8baluch/PPO/lab11/src/quaternion.h
+iostream
+-
+

@@ -1,0 +1,21 @@
+70,00 % 	4.0 	
+
+Kompilacja: OK
+Wyjście: błędne, są wycieki
+Dokumentacja: brak
+Ocena kodu:
+    -- Nie rozumiem dlaczego wołają Państwo zwykły konstruktor klasy bazowej w konstr. przenoszącym...
+       Powoduje to wycieki.
+    -- operatory =cp/mv w klasie pochodnej mogą korzystać z operatorów = klasy bazowej,
+            ale trzeba je wywołać explicite, np tak:
+           this->Polynomial::operator= (obj) (dla cp )
+           this->Polynomial::operator= (std:move(obj)) (dla mv)
+           Użycie std::move jest kluczowe żeby wywołał się op przypisania przenoszącego
+           a nie kopiującego.
+    -- obliczanie współczynnika wielomianu powinno być zamknięte w jednej fcji,
+       a nie skopiowane dwa razy
+    -- błędy w zakresach pętli w klasie Legendre, stąd zły wynik -- traktuje
+       to jako drobną pomyłkę
+    -- 'drobiazgi' w stylu przekazywania referencji nie stałej
+
+Wynik: 2(kompilacja)+2(wyjście)+0(doc)+3(kod) = 7

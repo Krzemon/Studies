@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g   CMakeFiles/exec.dir/src/main.cpp.o  -o exec 

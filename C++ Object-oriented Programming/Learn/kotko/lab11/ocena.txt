@@ -1,0 +1,9 @@
+90,00 % 	5.0 	
+
+Kompilacja: OK
+Wyjście: OK
+Dokumentacja: OK
+Ocena kodu:
+    -- zapomniał Pan o = (przenoszącym)....
+
+Wynik: 9

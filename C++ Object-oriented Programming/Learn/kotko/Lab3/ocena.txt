@@ -1,0 +1,10 @@
+100,00 % 	5.0 	
+
+UWAGI:
+1) Kompilacja make -- OK (2pkt)
+2) Wyjście pełne -- OK, brak wycieków (3pkt)
+3) Dokumentacja -- OK (1pkt)
+4) Ocena kodu
+   Nie mam do czego się przyczepić, poza użyciem liczby 13 w linii 21 pliku mystring.cpp, szczególnie, że ją definiuje Pan jako const w pliku nagłówkowym. Traktuje to jako przeoczenie, jednak proszę nie hardcode'ować stałych. Trudniej się czyta program.
+
+Wynik: 10pkt

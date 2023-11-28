@@ -1,0 +1,13 @@
+90,00 % 	5.0 	
+
+1) Kompilacja -- OK
+2) Wyjscie -- OK
+3) Dokumentacja -- OK
+4) Ocena kodu:
+   -- dobry kompaktowy kod
+   -- optymalnie makefile powinien byc napisany przy pomocy makr
+   -- powinny sie jednak znalezc zabiezpieczenia na wypadek wywolania niektorych fcji z zerowym wskaznikiem
+   -- skladniki x,y,z chyba lepiej implementowac jako tablice -- wtedy operacje przepisania badz wyliczania mozna napisac przy pomocy for, co zmniejsza prawd. bledow i jest bardziej eleganckie
+
+Wynik:9
+2(kompilacja)+3(wyjscie)+1(doc)+3(ocena kodu)

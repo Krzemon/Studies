@@ -33,5 +33,7 @@ void Wypisz(ciag tab, rozmiarCiagu n){
 void UsunCiagi(void){
     for(size_t i=0; i<IleCiagow; ++i){
         delete CIAGI[i]->wyrazy;
+        // delete [] zbior_ciagow[i]->wyrazy;
+        // delete zbior_ciagow[i];
     }
 }

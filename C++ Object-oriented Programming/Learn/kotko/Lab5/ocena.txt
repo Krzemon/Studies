@@ -1,0 +1,9 @@
+100,00 % 	5.0 	
+
+Kompilacja: OK
+Wyjscie: OK
+Dokumentacja: OK
+Ocena kodu:
+    -- jest kontrolu null-pointerow, aczkolwiek nalezy sie wystrzegac 'wczesnej' instrukcji return, szczegolnie z fcji void -- jest to zla praktyka i nalezy raczej uzywac if/else
+
+Wynik: 10

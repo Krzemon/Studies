@@ -1,0 +1,15 @@
+90,00 % 	5.0 	
+
+Kompilacja: OK
+Wyjście: OK
+Dokumentacja: OK
+Ocena kodu:
+    -- fcje nie zmieniające obiektów powinny pobierać referncje typu const
+    -- Zastosował Pan nie najlepszy sposób, mianowicie tworzenie i niszczenie Coin
+       w klasie Stack.
+       W zasadzie jesteśmy tutaj o krok od usunięcia
+       klasy Node w ogóle.
+       Przynajmniej, Pana sposób działa i implementuje prawdziwy stos,
+       a nie cokolwiek przechowującego monety...
+
+Wynik: 2(kompilacja)+3(wyjście)+1(doc)+3(kod) = 9

@@ -1,0 +1,4 @@
+/home/stud2018/8baluch/PPO/lab11/bui/CMakeFiles/rebuild_cache.dir
+/home/stud2018/8baluch/PPO/lab11/bui/CMakeFiles/edit_cache.dir
+/home/stud2018/8baluch/PPO/lab11/bui/CMakeFiles/exec.dir
+/home/stud2018/8baluch/PPO/lab11/bui/CMakeFiles/valgrind.dir

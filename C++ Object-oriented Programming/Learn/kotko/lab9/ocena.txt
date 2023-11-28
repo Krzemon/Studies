@@ -1,0 +1,11 @@
+100,00 % 	5.0 	
+
+Kompilacja: OK
+Wyjście: OK
+Dokumentacja: OK
+Ocena kodu:
+-- nie mam do czego się przyczepić. Wszystko działa, są konstr.
+   kopiujące i przenoszące. Brak wycieków.
+-- Nawet wyjście identyczne. Świetnie.
+
+Wynik: 10

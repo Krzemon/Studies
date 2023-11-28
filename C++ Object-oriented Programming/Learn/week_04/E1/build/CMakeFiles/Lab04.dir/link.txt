@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g -rdynamic CMakeFiles/Lab04.dir/main.cpp.o CMakeFiles/Lab04.dir/src/MyList.cpp.o -o Lab04 
