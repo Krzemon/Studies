@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g -rdynamic CMakeFiles/lab08.dir/Main.cpp.o CMakeFiles/lab08.dir/src/PointCloud.cpp.o -o lab08 

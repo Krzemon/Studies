@@ -5,45 +5,45 @@
 #include <array>
 #include <vector>
 
-class APointCloud;
 class VPointCloud;
 
-// definicja klasy opisujacej punkt
-class Point3D{
+
+class Point3D {
 public:
-    Point3D();
-    Point3D(std::array<double, 3> point);
+    Point3D() = default;
+    Point3D(std::array<double, 3> coordinates);
     void displayCoordinates() const;
+    const std::array<double, 3>& getCoordinates() const {return coordinates_;}
 
 private:
-    friend class APointCloud;
-    friend class VPointCloud;
     std::array<double, 3> coordinates_;
 };
 
-// definicja klasy opisujacej chmure punktow utwarzona przy pomocy std::array
-class APointCloud{
+class APointCloud {
 public:
-    void addPoint(Point3D point);
+    APointCloud();
+    ~APointCloud();
+    void addPoint(const Point3D& point);
     Point3D geoCentre() const;
-    void displayPoints() const;
     void displayPoints() const;
 
 private:
-    const size_t array_size = 100;
-    std::array<Point3D,array_size> arrPoints_;
+    std::array<Point3D, 100> points_;
+    size_t count_;
+    static const size_t MAX_POINTS = 100;
+    friend class VPointCloud;
 };
 
-// definicja klasy opisujacej chmure punktow utwarzona przy pomocy std::vector
-class VPointCloud{
+class VPointCloud {
 public:
     void addPoint(const Point3D& point);
     void add(const APointCloud& aPointCloud);
-    int count() const;
+    size_t count() const;
     Point3D geoCentre() const;
+    void displayPoints() const;
 
 private:
-    std::vector<Point3D> vecPoints_;
+    std::vector<Point3D> points_;
 };
 
 #endif
