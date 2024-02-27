@@ -1,0 +1,3 @@
+/home/fedora/Programming/Studies/monte/build/CMakeFiles/lab08.dir
+/home/fedora/Programming/Studies/monte/build/CMakeFiles/edit_cache.dir
+/home/fedora/Programming/Studies/monte/build/CMakeFiles/rebuild_cache.dir
