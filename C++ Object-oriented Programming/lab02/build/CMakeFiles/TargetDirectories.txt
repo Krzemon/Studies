@@ -1,3 +1,0 @@
-/home/fedora/Programming/Studies/C++ Object-oriented Programming/lab02/build/CMakeFiles/lab02.dir
-/home/fedora/Programming/Studies/C++ Object-oriented Programming/lab02/build/CMakeFiles/edit_cache.dir
-/home/fedora/Programming/Studies/C++ Object-oriented Programming/lab02/build/CMakeFiles/rebuild_cache.dir
