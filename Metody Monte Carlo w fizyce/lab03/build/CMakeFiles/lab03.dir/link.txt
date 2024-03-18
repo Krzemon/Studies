@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g -rdynamic CMakeFiles/lab03.dir/Main.cpp.o CMakeFiles/lab03.dir/src/rozklady_2D.cpp.o -o lab03 

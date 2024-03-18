@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g -rdynamic CMakeFiles/lab02.dir/main.cpp.o CMakeFiles/lab02.dir/src/Histogram.cpp.o CMakeFiles/lab02.dir/src/Series.cpp.o -o lab02 

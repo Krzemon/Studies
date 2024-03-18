@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1.0)
-project (lab08)
+project (lab01)
 
 # prevent for in-source building
 set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)
@@ -7,6 +7,7 @@ set(CMAKE_DISABLE_SOURCE_CHANGES  ON)
 if ("${CMAKE_SOURCE_DIR}" STREQUAL "${CMAKE_BINARY_DIR}")
   message(SEND_ERROR "In-source builds are not allowed.")
 endif ()
+
 
 add_definitions(-DPROJECTPATH=\"${PROJECT_SOURCE_DIR}\")
 
