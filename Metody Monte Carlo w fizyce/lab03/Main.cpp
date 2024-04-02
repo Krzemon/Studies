@@ -23,7 +23,17 @@ int main() {
         X_norm[i] = X[i] / std::sqrt(X[i] * X[i] + Y[i] * Y[i]);
         Y_norm[i] = Y[i] / std::sqrt(X[i] * X[i] + Y[i] * Y[i]);
     }
+    // on circle     
 
+    std::ofstream Circle_On("../data/Circle_On.dat", std::ios::out);
+
+    for (int i = 0; i < n; i++){
+        Circle_On << X_norm[i] << " " << Y_norm[i] << std::endl;
+    }
+
+    Circle_On.close();
+
+    // in circle   
     Circle_Norm(X_norm, Y_norm);
 
     std::ofstream Circle_Norm_File("../data/Circle_Norm.dat", std::ios::out);
@@ -65,10 +75,28 @@ int main() {
     std::cout << "\n " << std::endl;
 
     // zadanie 4
+
+    std::vector<double> X_norm_2(n);
+    std::vector<double> Y_norm_2(n);
+
     std::vector<double> X_norm_rotate(n);
     std::vector<double> Y_norm_rotate(n);
 
-    Box_Muller(X_norm_rotate, Y_norm_rotate);
+    double rn1[2];
+    double rn2[2];
+
+    Box_Muller(X_norm_2, Y_norm_2);
+
+    Transformance(b1, b2, alpha, rn1, rn2, X_norm_2, Y_norm_2, X_norm_rotate, Y_norm_rotate);
+
+    std::ofstream NormRotateFile("../data/NormRotate.dat", std::ios::out);
+
+    for (int i = 0; i < n; i++){
+        NormRotateFile << X_norm_rotate[i] << " " << Y_norm_rotate[i] << std::endl;
+    }
+
+    NormRotateFile.close();
+
 
     double norm_cov[2][2] = {0.0};
 
@@ -76,15 +104,6 @@ int main() {
 
     Print_Cov(norm_cov);
 
-    Transformance(1, 1, M_PI / 4, r1, r2, X_norm_rotate, Y_norm_rotate, X_norm_rotate, Y_norm_rotate);
-
-    std::ofstream NormRotateFile("../data/NormRotate.dat", std::ios::out);
-
-    for (int i = 0; i < n; i++){
-        NormRotateFile << X[i] << " " << Y[i] << std::endl;
-    }
-
-    NormRotateFile.close();
 
     return 0;
 }

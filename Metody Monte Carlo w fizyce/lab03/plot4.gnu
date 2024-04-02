@@ -6,6 +6,6 @@ set ylabel "Polozenie Y"
 
 set xrange [-4:4]
 set yrange [-4:4]
+set key off
 
-
-plot "./data/NormRotate.dat" using 1:2 linecolor rgb "blue" pointtype 6
+plot "./data/NormRotate.dat" using 1:2 linecolor rgb "black" pointtype 6

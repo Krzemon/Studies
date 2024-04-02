@@ -1,0 +1,22 @@
+#ifndef LIST_H
+#define LIST_H
+
+#include "Node.h"
+
+class List {
+public:
+    enum Position { Begin, End };
+
+private:
+    std::unique_ptr<Node> head;
+
+public:
+    List();
+    List(const List& other);
+
+    List& insert(std::unique_ptr<Data> data, Position pos = End);
+    void print() const;
+};
+
+#endif // LIST_H
+

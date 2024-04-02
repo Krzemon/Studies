@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g -rdynamic CMakeFiles/lab05.dir/Main.cpp.o CMakeFiles/lab05.dir/src/Metoda_warstw.cpp.o -o lab05 
