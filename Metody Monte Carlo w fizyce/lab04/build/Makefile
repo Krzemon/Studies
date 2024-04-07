@@ -153,29 +153,29 @@ Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
-src/rozklady_2D.o: src/rozklady_2D.cpp.o
-.PHONY : src/rozklady_2D.o
+src/combined.o: src/combined.cpp.o
+.PHONY : src/combined.o
 
 # target to build an object file
-src/rozklady_2D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/rozklady_2D.cpp.o
-.PHONY : src/rozklady_2D.cpp.o
+src/combined.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/combined.cpp.o
+.PHONY : src/combined.cpp.o
 
-src/rozklady_2D.i: src/rozklady_2D.cpp.i
-.PHONY : src/rozklady_2D.i
+src/combined.i: src/combined.cpp.i
+.PHONY : src/combined.i
 
 # target to preprocess a source file
-src/rozklady_2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/rozklady_2D.cpp.i
-.PHONY : src/rozklady_2D.cpp.i
+src/combined.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/combined.cpp.i
+.PHONY : src/combined.cpp.i
 
-src/rozklady_2D.s: src/rozklady_2D.cpp.s
-.PHONY : src/rozklady_2D.s
+src/combined.s: src/combined.cpp.s
+.PHONY : src/combined.s
 
 # target to generate assembly for a file
-src/rozklady_2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/rozklady_2D.cpp.s
-.PHONY : src/rozklady_2D.cpp.s
+src/combined.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/combined.cpp.s
+.PHONY : src/combined.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"
-	@echo "... src/rozklady_2D.o"
-	@echo "... src/rozklady_2D.i"
-	@echo "... src/rozklady_2D.s"
+	@echo "... src/combined.o"
+	@echo "... src/combined.i"
+	@echo "... src/combined.s"
 .PHONY : help
 
 

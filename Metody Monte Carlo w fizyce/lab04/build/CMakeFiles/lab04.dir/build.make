@@ -83,30 +83,30 @@ CMakeFiles/lab04.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab04.dir/Main.cpp.s"
 	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/Main.cpp" -o CMakeFiles/lab04.dir/Main.cpp.s
 
-CMakeFiles/lab04.dir/src/rozklady_2D.cpp.o: CMakeFiles/lab04.dir/flags.make
-CMakeFiles/lab04.dir/src/rozklady_2D.cpp.o: /home/fedora/Programming/Studies/Metody\ Monte\ Carlo\ w\ fizyce/lab04/src/rozklady_2D.cpp
-CMakeFiles/lab04.dir/src/rozklady_2D.cpp.o: CMakeFiles/lab04.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab04.dir/src/rozklady_2D.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab04.dir/src/rozklady_2D.cpp.o -MF CMakeFiles/lab04.dir/src/rozklady_2D.cpp.o.d -o CMakeFiles/lab04.dir/src/rozklady_2D.cpp.o -c "/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/src/rozklady_2D.cpp"
+CMakeFiles/lab04.dir/src/combined.cpp.o: CMakeFiles/lab04.dir/flags.make
+CMakeFiles/lab04.dir/src/combined.cpp.o: /home/fedora/Programming/Studies/Metody\ Monte\ Carlo\ w\ fizyce/lab04/src/combined.cpp
+CMakeFiles/lab04.dir/src/combined.cpp.o: CMakeFiles/lab04.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab04.dir/src/combined.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab04.dir/src/combined.cpp.o -MF CMakeFiles/lab04.dir/src/combined.cpp.o.d -o CMakeFiles/lab04.dir/src/combined.cpp.o -c "/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/src/combined.cpp"
 
-CMakeFiles/lab04.dir/src/rozklady_2D.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab04.dir/src/rozklady_2D.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/src/rozklady_2D.cpp" > CMakeFiles/lab04.dir/src/rozklady_2D.cpp.i
+CMakeFiles/lab04.dir/src/combined.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab04.dir/src/combined.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/src/combined.cpp" > CMakeFiles/lab04.dir/src/combined.cpp.i
 
-CMakeFiles/lab04.dir/src/rozklady_2D.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab04.dir/src/rozklady_2D.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/src/rozklady_2D.cpp" -o CMakeFiles/lab04.dir/src/rozklady_2D.cpp.s
+CMakeFiles/lab04.dir/src/combined.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab04.dir/src/combined.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/src/combined.cpp" -o CMakeFiles/lab04.dir/src/combined.cpp.s
 
 # Object files for target lab04
 lab04_OBJECTS = \
 "CMakeFiles/lab04.dir/Main.cpp.o" \
-"CMakeFiles/lab04.dir/src/rozklady_2D.cpp.o"
+"CMakeFiles/lab04.dir/src/combined.cpp.o"
 
 # External object files for target lab04
 lab04_EXTERNAL_OBJECTS =
 
 lab04: CMakeFiles/lab04.dir/Main.cpp.o
-lab04: CMakeFiles/lab04.dir/src/rozklady_2D.cpp.o
+lab04: CMakeFiles/lab04.dir/src/combined.cpp.o
 lab04: CMakeFiles/lab04.dir/build.make
 lab04: CMakeFiles/lab04.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab04"

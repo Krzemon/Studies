@@ -2,12 +2,16 @@
 
 
 int main() {
-    // Parametry kół
+
     double RA = 1;
     double RB = std::sqrt(2) * RA;
 
     // Zadanie 1: Obliczanie wspólnej powierzchni kół
-    double xA = 0.5 * RA; // Wartość xA do zmiany
+    double xA = 0.5 * RA;
+    double yA = 0.0;
+    double xB = 0.0;
+    double yB = 0.0;
+
     double common_area = calculate_common_area(xA, RA, RB);
     std::cout << "Wspólna powierzchnia kół: " << common_area << std::endl;
 
