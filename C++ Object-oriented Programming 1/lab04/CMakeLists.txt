@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1.0)
-project (lab03)
+project (lab04)
 
 # prevent for in-source building
 set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)

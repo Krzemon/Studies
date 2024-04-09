@@ -10,7 +10,6 @@ void Box_Muller(std::vector<double> &X, std::vector<double> &Y){
 }
 
 void Circle_Norm(std::vector<double> &X, std::vector<double> &Y){
-    double U1 = uniform();
     for(int i = 0; i < n; ++i){
         double U1 = uniform();
 

@@ -153,29 +153,29 @@ Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
-src/combined.o: src/combined.cpp.o
-.PHONY : src/combined.o
+src/geometry.o: src/geometry.cpp.o
+.PHONY : src/geometry.o
 
 # target to build an object file
-src/combined.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/combined.cpp.o
-.PHONY : src/combined.cpp.o
+src/geometry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/geometry.cpp.o
+.PHONY : src/geometry.cpp.o
 
-src/combined.i: src/combined.cpp.i
-.PHONY : src/combined.i
+src/geometry.i: src/geometry.cpp.i
+.PHONY : src/geometry.i
 
 # target to preprocess a source file
-src/combined.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/combined.cpp.i
-.PHONY : src/combined.cpp.i
+src/geometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/geometry.cpp.i
+.PHONY : src/geometry.cpp.i
 
-src/combined.s: src/combined.cpp.s
-.PHONY : src/combined.s
+src/geometry.s: src/geometry.cpp.s
+.PHONY : src/geometry.s
 
 # target to generate assembly for a file
-src/combined.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/combined.cpp.s
-.PHONY : src/combined.cpp.s
+src/geometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/src/geometry.cpp.s
+.PHONY : src/geometry.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"
-	@echo "... src/combined.o"
-	@echo "... src/combined.i"
-	@echo "... src/combined.s"
+	@echo "... src/geometry.o"
+	@echo "... src/geometry.i"
+	@echo "... src/geometry.s"
 .PHONY : help
 
 

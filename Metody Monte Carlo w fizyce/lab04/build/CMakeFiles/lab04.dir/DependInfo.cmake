@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/Main.cpp" "CMakeFiles/lab04.dir/Main.cpp.o" "gcc" "CMakeFiles/lab04.dir/Main.cpp.o.d"
-  "/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/src/combined.cpp" "CMakeFiles/lab04.dir/src/combined.cpp.o" "gcc" "CMakeFiles/lab04.dir/src/combined.cpp.o.d"
+  "/home/fedora/Programming/Studies/Metody Monte Carlo w fizyce/lab04/src/geometry.cpp" "CMakeFiles/lab04.dir/src/geometry.cpp.o" "gcc" "CMakeFiles/lab04.dir/src/geometry.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
